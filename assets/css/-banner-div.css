@@ -1,0 +1,8 @@
+.img-banner-hover{
+    transition: .5s ease;
+}
+ 
+ .img-banner-hover:hover{
+    transform: scale(1.05)!important;
+
+}

@@ -1,0 +1,44 @@
+.custom-breadCrumb{
+    margin: 0;
+    background-color:#ddd;
+    font-size: 14px;
+    border-radius: 0;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: ">" !important;
+    font-size: 14px;
+}
+
+.product-page-rate{
+    color: goldenrod;
+    font-size: 18px;
+}
+.product-page-price{
+    font-size: 18px;
+}
+.product-page-rate span{
+font-size: 16px;
+color: #111;
+}
+.product-page-title{
+    font-size: 20px;
+}
+p.description{
+    line-height: 36px ;
+    font-size: 17px;
+}
+/* .border-bottom{
+    border-bottom: 1px solid red;
+} */
+
+
+.brand-categori{
+    font-size: 15px ;
+}
+
+
+
+
+
+
+

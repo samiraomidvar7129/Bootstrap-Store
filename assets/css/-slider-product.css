@@ -1,0 +1,30 @@
+.custom-width{
+    max-width: 100px !important;
+  
+}
+.custom-card{
+    border-radius: 0;
+    border: none;
+}
+.custom-card:hover{
+    box-shadow: 1px 0px 20px 1px  rgb(186, 182, 182);
+    /* z-index: 11; */
+}
+.owl-carousel a{
+    text-decoration: none !important;
+}
+.custom-position-badge{
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+.custom-bg-light{
+    background-color: rgb(215, 213, 213);
+}
+.spacial-title2{
+    margin:5px 0 0 0;
+    border-bottom: 3px solid red;
+    padding-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,114 @@
+.spacial-title{
+    right: 0;
+    border-bottom: 3px solid red;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.custom-nav-tabs .nav-link{
+  border:1px solid #ddd;
+  font-size: 12px;
+  
+
+}
+.custom-nav-tabs .nav-link.active, .custom-nav-tabs .nav-item.show .nav-link{
+    color: rgb(238,99,99);
+    background-color: transparent !important;
+    /* border-color: transparent; */
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.custom-font-size{
+    font-size: 13px !important;
+}
+.offer-rating i{
+    color:goldenrod;
+}
+.count-down-timer p span{
+    font-size: 14px;
+    font-weight: 700;
+    color: red;
+
+}
+
+ .count-down-timer .demos #day,
+ .count-down-timer .demos #hours,
+ .count-down-timer .demos #minutes,
+ .count-down-timer .demos #seconds{
+margin: 3px;
+background-color: #ddd;
+display: inline-block;
+width:20px;
+height:20px;
+text-align: center;
+border-radius: 100%;
+font-size: 12px;
+
+}
+.offer-expire-text{
+    width: 100% !important;
+    height: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        background-color: rgba(224, 221, 221, 0.749);
+        z-index: 1;   
+}
+ #day:after{
+    content: "روز";
+    position: absolute;
+    top:30px;
+    left:  40px;
+    font-size: 10px;
+}
+#hours:after{
+    content: "ساعت";
+    position: absolute;
+    top:30px;
+    left:  55px;
+    font-size: 10px;
+}
+#minutes:after{
+    content: "دقیقه";
+    position: absolute;
+    font-size: 10px;
+    top:30px;
+    left:  90px;
+}
+#seconds:after{
+    content: "ثانیه";
+    position: absolute;
+    font-size: 10px;
+    top:30px;
+    left:  120px;
+} 
+.offer-product-img{
+    overflow: hidden;
+    height: 200px;
+}
+.offer-product-img img{
+width: 200px;
+
+}
+.img-first,.img-second{
+    transition: .6s ease;
+}
+.offer-product-img:hover .img-first, .offer-product-img:hover .img-second{
+    transform: translateY(-200px);
+}
+
+.custom-box-shadow{
+    box-shadow:0px 0px 18px 1px #bab8b8;
+    height: 300px;
+}
+@media screen and (max-width:60px) {
+    .spacial-title{
+        font-size: 12px;
+    }
+    .wrapper{
+        width: 92%;
+    }
+}

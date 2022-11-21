@@ -1,0 +1,62 @@
+.custom-navTabs-product .nav-link.active,.custom-navTabs-product .nav-item.show .nav-link{
+  border-top: 3px solid red;
+}
+
+.custom-tabPan-product h5, .custom-tabPan-product-detail h5{
+color: rgb(154, 150, 150);
+}
+.custom-tabPan-product p{
+    font-size: 16px ;
+    line-height: 36px;
+    direction: rtl;
+}
+
+.quality-rate span{
+    right: 10px !important;
+}
+.text-align-right{
+  text-align: right;
+}
+.progress-product-div{
+  background-color: #ddd;
+}
+.product-desc-step{
+  margin-right: 12px;
+}
+
+.product-desc-step  li{
+border-right:1px solid #ccc ;
+}
+.product-desc-step  li i{
+  top:-10px;
+  right: -10px;
+}
+.product-desc-step  li img{
+  width: 100px;
+  height: 100px;
+  padding-bottom: 20px !important;
+}
+.custom-tabPan-product-detail ul li .key{
+  background-color: #ccc;
+  flex: 0 0 20%;
+
+}
+.custom-tabPan-product-detail ul li .value{
+  background-color: #ccc;
+  flex: 0 0 75%;
+
+}
+
+.add-comment-box p:first-child(){
+  font-size: 18px;
+  color: #505050;
+}
+
+.add-comment-box p:nth-child(2){
+  font-size: 18px;
+  color: #505050;
+}
+
+.user-comment ul.nav li i{
+  font-size: 9px !important;
+}

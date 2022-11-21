@@ -1,0 +1,83 @@
+@import "./-top_nav.css";
+@import './-services.css';
+@import './-slider.css';
+@import './-special-offer.css';
+@import './-special-offer.css';
+@import './-slider-product.css';
+@import './-banner-div.css';
+@import './-footer.css';
+@import './product-breadCrumb.css';
+@import './product-nav-tabs.css';
+
+
+
+
+
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* css resets===================> */
+ol,ul,li{list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{text-decoration: none;}
+p{margin: 0;}
+/* ==============================> */
+
+
+
+/* general styles */
+
+
+@media  (max-width:576px){
+    .mt-custom-sm-2{
+    margin-top: 1.5rem;
+    }
+}
+
+
+
+/* owl-carousel style */
+
+.owl-carousel .owl-nav{
+    display: block !important;
+    text-align: center;
+}
+.owl-prev,.owl-next{
+    position: absolute;
+    top: 30%;
+    font-size: 55px !important;
+    color: rgb(176, 176, 176) !important;
+    display: block;
+    width: 25px;
+box-shadow: 0 0 5px 4px #dddbdb;
+z-index: 999;   
+}
+/* .owl-prev,.owl-next:hover{
+    background-color: #ddd !important;
+} */
+
+.owl-next{
+    left:-5px;
+ 
+   
+}
+.owl-prev{
+  right:-5px;
+}
+.owl-prev, .owl-next:focus span , .owl-next,.owl-prev :hover span{
+    outline: none !important;
+    background: none !important;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: none !important;
+}
+
+
+
