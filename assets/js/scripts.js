@@ -3,7 +3,7 @@
 
 //set the date we are counting down to
 
-var countDownTimer=new Date('Novamber 10, 2022 13:37:25').getTime();
+var countDownTimer=new Date('Novamber 10, 2023 13:37:25').getTime();
 
 // Update the count down every 1 second
 var x=setInterval(function(){
@@ -17,7 +17,7 @@ var x=setInterval(function(){
 
     //find the calculations for days , hours , minutes and seconds
 
-    var day=Math.floor(distance / (1000 * 60 * 60 * 24));
+    // var day=Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours=Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes=Math.floor((distance %( 1000 * 60 * 60)) / (1000 * 60));
     var seconds=Math.floor((distance % (1000 * 60)) / 1000);
@@ -31,9 +31,9 @@ var x=setInterval(function(){
 var z=document.getElementsByClassName("demos");
 for(var index = 0; index < z.length ; index++) {
     z[index].innerHTML=
-    '<span id="day">'+
-    day +
-    "</span"+
+    // '<span id="days">'+
+    // day +
+    // "</span"+
     '<span id="hours">'+
     hours +
     "</span>"+

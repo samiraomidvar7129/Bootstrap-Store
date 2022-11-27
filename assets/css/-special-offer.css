@@ -34,7 +34,7 @@
 
 }
 
- .count-down-timer .demos #day,
+ .count-down-timer .demos #days,
  .count-down-timer .demos #hours,
  .count-down-timer .demos #minutes,
  .count-down-timer .demos #seconds{
@@ -57,7 +57,7 @@ font-size: 12px;
         background-color: rgba(224, 221, 221, 0.749);
         z-index: 1;   
 }
- #day:after{
+ #days:after{
     content: "روز";
     position: absolute;
     top:30px;
@@ -68,7 +68,7 @@ font-size: 12px;
     content: "ساعت";
     position: absolute;
     top:30px;
-    left:  55px;
+    left:  50px;
     font-size: 10px;
 }
 #minutes:after{
@@ -76,14 +76,14 @@ font-size: 12px;
     position: absolute;
     font-size: 10px;
     top:30px;
-    left:  90px;
+    left:  80px;
 }
 #seconds:after{
     content: "ثانیه";
     position: absolute;
     font-size: 10px;
     top:30px;
-    left:  120px;
+    left:  110px;
 } 
 .offer-product-img{
     overflow: hidden;
